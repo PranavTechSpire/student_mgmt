@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Student Dashboard</title>
+
+    <link rel="stylesheet"
+    href="/static/css/style.css">
+
+</head>
+
+
+<body>
+
+
+<h1>Student Management System</h1>
+
+
+
+<!-- STUDENT FORM -->
+
+
+<form id="studentForm">
+
+
+    <input 
+    type="hidden"
+    id="studentId">
+
+
+    <input 
+    type="text"
+    id="name"
+    placeholder="Enter Name">
+
+
+    <input 
+    type="number"
+    id="age"
+    placeholder="Enter Age">
+
+
+    <input
+    type="text"
+    id="course"
+    placeholder="Enter Course">
+
+
+    <input
+    type="text"
+    id="city"
+    placeholder="Enter City">
+
+
+    <button type="submit" id="submitBtn">
+
+        Add Student
+
+    </button>
+
+
+</form>
+
+
+
+<hr>
+
+
+
+<!-- STUDENT TABLE -->
+
+
+<table border="1">
+
+
+<thead>
+
+<tr>
+
+    <th>ID</th>
+
+    <th>Name</th>
+
+    <th>Age</th>
+
+    <th>Course</th>
+
+    <th>City</th>
+
+    <th>Actions</th>
+
+
+</tr>
+
+
+</thead>
+
+
+
+<tbody id="studentTable">
+
+
+</tbody>
+
+
+
+</table>
+
+
+
+
+<script src="/static/js/script.js">
+</script>
+
+
+</body>
+
+
+</html>
