@@ -195,6 +195,8 @@ def update_student(id):
 
     data=request.get_json()
 
+   
+
 
 
     if not data:
